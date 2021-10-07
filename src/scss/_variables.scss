@@ -1,0 +1,50 @@
+$primary: rgb(28, 63, 170);
+$secondary:red;
+$success: rgb(23, 201, 100);
+$warning: rgb(255, 130, 0);
+$danger: rgb(242, 19, 93);
+$dark: rgb(36, 33, 69);
+$white: rgb(236, 236, 236);
+
+$border-radius : 7pt;
+
+$borders : (rounded: 50pt,
+    default: $border-radius,
+    medium: $border-radius - 3,
+    square: 0px,
+);
+
+$sizes : ('large':50px,
+    'default':40px,
+    'small':30px,
+    'tiny':20px,
+);
+
+$colors: ('primary': $primary,
+    'secondary': $secondary,
+    'success': $success,
+    'warning': $warning,
+    'danger': $danger,
+    'dark': $dark,
+    'white': $white,
+);
+
+// ESPACERS
+
+$padding : 15px;
+
+// INDEX
+
+$z-index-100: 100;
+$z-index-200: 200;
+$z-index-300: 300;
+$z-index-400: 400;
+
+// SCREENS
+
+$screems : (xsm: 0px,
+    sm: 480px,
+    md: 768px,
+    lg: 1200px,
+    xlg: 1400px,
+);
